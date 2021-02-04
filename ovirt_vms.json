@@ -1,0 +1,37 @@
+TASK [debug] ********************************************************************************************************************************************************************************************************************************
+ok: [lxoirhem2.kas.vw.vwg] => {
+    "ansible_facts": {
+        "discovered_interpreter_python": "/usr/bin/python",
+        "ovirt_vms": [
+            {
+                "affinity_labels": [],
+                "applications": [],
+                "bios": {
+                    "boot_menu": {
+                        "enabled": false
+                    },
+                    "type": "i440fx_sea_bios"
+                },
+                "cdroms": [],
+                "cluster": {
+                    "href": "/ovirt-engine/api/clusters/abf48d65-75f1-4691-a76f-df2c84a2356b",
+                    "id": "abf48d65-75f1-4691-a76f-df2c84a2356b"
+                },
+                "comment": "",
+                "cpu": {
+                    "architecture": "x86_64",
+                    "topology": {
+                        "cores": 2,
+                        "sockets": 2,
+                        "threads": 1
+                    }
+                },
+                "cpu_profile": {
+                    "href": "/ovirt-engine/api/cpuprofiles/3a03d9b7-67c7-4835-be20-4821c19ed8a4",
+                    "id": "3a03d9b7-67c7-4835-be20-4821c19ed8a4"
+                },
+                "cpu_shares": 0,
+                "creation_time": "2018-05-23 13:06:33.219000+02:00",
+                "delete_protected": false,
+                "description": "DB-hrl1q (LDR2)",
+                "disk_attachments": [],
